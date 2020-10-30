@@ -1,0 +1,55 @@
+/* Add application styles & imports to this file! */
+
+@import "~@ionic/angular/css/core.css";
+@import "~@ionic/angular/css/normalize.css";
+@import "~@ionic/angular/css/structure.css";
+@import "~@ionic/angular/css/typography.css";
+
+@import "~@ionic/angular/css/padding.css";
+@import "~@ionic/angular/css/float-elements.css";
+@import "~@ionic/angular/css/text-alignment.css";
+@import "~@ionic/angular/css/text-transformation.css";
+@import "~@ionic/angular/css/flex-utils.css";
+@import url("https://fonts.googleapis.com/css?family=Lato|Montserrat|Muli|Open+Sans|Oswald|Roboto");
+
+@import url("https://unpkg.com/ionicons@4.4.2/dist/css/ionicons.min.css");
+
+* {
+  font-family: "Muli", Montserrat, Open Sans, Roboto, Lato, Oswald, sans-serif;
+}
+html body iframe {
+  height: 100%;
+  width: 100%;
+}
+body {
+  border: 0;
+  margin: 0;
+}
+iframe {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  border: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 999999;
+}
+.iframe-fix iframe {
+  -webkit-overflow-scrolling: touch !important;
+  overflow: scroll !important;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin-top: 40px;
+}
+
+.iframe-fix {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  border: none;
+  background-color: #fff;
+}
